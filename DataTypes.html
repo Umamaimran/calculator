@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+   <script>
+// Numbers:
+let length = 16;
+let weight = 7.5;
+document.write("data type of length   ",typeof(length));
+document.write("data type of weight   ", typeof(weight))
+document.write("   length   ",length,"weight",weight);
+// document.write("weight",weight);
+// Strings:
+let color = "Yellow";
+let lastName = 'Johnson';
+document.write("data type of color",typeof(color));
+document.write("data type of lastname",typeof(lastName));
+console.log(color);
+// Booleans
+let x = true;
+let y = false;
+document.write("data type of x",typeof(x))
+// Object:
+const person = {firstName:"John", lastName:"Doe",age:90,goodBehaviour:false};
+document.write("data type of person",typeof(person))
+// Array object:
+const cars = ["Saab", "Volvo", "BMW",99,10,88.999,true];
+document.write("data type of cars",typeof(cars))
+// Date object:
+const date = new Date();
+document.write(date);
+document.write("data type of date",typeof(date));
+let num = BigInt("123456789012345678901234567890");
+document.getElementById("demo").innerHTML = num; 
+document.write("data type of num   ",typeof(num))
+let laiba;
+document.write("type of variable with no value     ",typeof(laiba))
+   </script> 
+</body>
+</html>

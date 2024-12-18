@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>VARIABLES ARE CONTAINER FOR STORING DATA</h1>
+    <p id="demo"></p>
+
+    <script>
+      // variable name should be unique 
+      // AUTOMATIC DECLARATION
+      num1 = 5;
+      num2 = 6;
+      Output = num1 + num2;
+      document.getElementById("demo").innerHTML = Output;
+      console.log(Output);
+      firstname = "laiba";
+      lastname = "ali";
+      name = firstname + " " + lastname;
+      //   document.write(name);
+      alert("Hello" + " " + name);
+
+      // 2) using var(most used way)
+      // The var keyword was used in all JavaScript code from 1995 to 2015.
+      // The let and const keywords were added to JavaScript in 2015.It has block scope.
+      // var no1=79;
+      // var no2=99;
+      // console.log(no1+no2)
+      //   3) let 
+      // let no1=79;
+      // let no2=99;
+      // console.log(no1+no2)
+      // 4) const -- for constant values
+
+      const pi=3.142;
+// override 
+      num1=100;
+      num2=200;
+      document.write(num1+num2);
+ 
+      document.write("the value of pi is" + pi);
+    </script>
+  </body>
+</html>

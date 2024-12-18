@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p id="demo"></p>
+    <p id="one"></p>
+    <p id="hello"></p>
+    <p id="mypara"></p>
+    <br>
+    <p id="fruitname"></p>
+    <p id="data"></p>
+    <script>
+      // make an array-- arrays are indexed (0th index - first element is on zero [0])
+      // printing elements of array
+const fruits=['apple',90,"880"];
+document.getElementById("fruitname").innerHTML=fruits[2];
+document.write(fruits[0],"   ");
+document.write("      ");
+document.write(fruits);
+    //   arrayname[index]
+    const girls=['laiba','maria','mahnoor','aqsa']
+    document.write(girls);
+document.getElementById("demo").innerHTML=girls[0];
+document.getElementById("one").innerHTML=girls[1];
+document.getElementById("hello").innerHTML=girls[2];
+document.getElementById("mypara").innerHTML=girls[3];
+      // arrays are indexed from 0
+    //   document.write(typeof(girls));
+      document.getElementById("data").innerHTML=typeof(girls);
+      document.getElementById("data").innerHTML=typeof(fruits);
+    </script>
+  </body>
+</html>
